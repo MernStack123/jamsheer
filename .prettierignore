@@ -1,0 +1,34 @@
+# Videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.flv
+
+# Images  
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.svg
+*.ico
+
+# Audio
+*.mp3
+*.wav
+*.ogg
+
+# Other binary files
+*.pdf
+*.zip
+*.tar.gz
+
+# Directories
+public/videos/
+public/images/
+node_modules/
+.next/
+dist/
+build/
