@@ -11,7 +11,10 @@ const VideoSection: React.FC = () => {
         className="absolute inset-0 h-full w-full object-cover"
         poster="/images/poster/home.webp"
       >
-        <source src="/videos/home.mp4" type="video/mp4" />
+        <source
+          src="https://res.cloudinary.com/duoycuhvh/video/upload/v1752991561/home_tyucl8.mp4"
+          type="video/mp4"
+        />
         Your browser does not support the video tag.
       </video>
 

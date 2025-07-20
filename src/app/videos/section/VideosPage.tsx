@@ -24,9 +24,18 @@ const VideosPage: React.FC = () => {
       description:
         'Cinematic wedding films that capture the magic, emotion, and unforgettable moments of your special day with artistic storytelling and professional quality.',
       videos: [
-        { src: '/videos/wedding/1.mp4', title: 'Wedding Video 1' },
-        { src: '/videos/wedding/2.mp4', title: 'Wedding Video 2' },
-        { src: '/videos/wedding/3.mp4', title: 'Wedding Video 3' },
+        {
+          src: 'https://res.cloudinary.com/duoycuhvh/video/upload/v1752991353/1_vngeh1.mp4',
+          title: 'Wedding Video 1',
+        },
+        {
+          src: 'https://res.cloudinary.com/duoycuhvh/video/upload/v1752991461/2_u2vcpw.mp4',
+          title: 'Wedding Video 2',
+        },
+        {
+          src: 'https://res.cloudinary.com/duoycuhvh/video/upload/v1752991531/3_v12cvo.mp4',
+          title: 'Wedding Video 3',
+        },
       ],
     },
     {
@@ -34,8 +43,14 @@ const VideosPage: React.FC = () => {
       description:
         'Professional corporate videos that showcase your brand, tell your company story, and engage your audience with compelling visual narratives and high production value.',
       videos: [
-        { src: '/videos/corporate/1.mp4', title: 'Corporate Video 1' },
-        { src: '/videos/corporate/2.mp4', title: 'Corporate Video 2' },
+        {
+          src: 'https://res.cloudinary.com/duoycuhvh/video/upload/v1752991065/1_ox7rt8.mp4',
+          title: 'Corporate Video 1',
+        },
+        {
+          src: 'https://res.cloudinary.com/duoycuhvh/video/upload/v1752991137/2_gwiynt.mp4',
+          title: 'Corporate Video 2',
+        },
       ],
     },
     {
@@ -43,9 +58,18 @@ const VideosPage: React.FC = () => {
       description:
         'Creative and impactful advertisement videos designed to capture attention, convey your message effectively, and drive engagement with stunning visuals and compelling storytelling.',
       videos: [
-        { src: '/videos/advertisement/1.mp4', title: 'Advertisement Video 1' },
-        { src: '/videos/advertisement/2.mp4', title: 'Advertisement Video 2' },
-        { src: '/videos/advertisement/3.mp4', title: 'Advertisement Video 3' },
+        {
+          src: 'https://res.cloudinary.com/duoycuhvh/video/upload/v1752990728/3_fhnxzp.mp4',
+          title: 'Advertisement Video 1',
+        },
+        {
+          src: 'https://res.cloudinary.com/duoycuhvh/video/upload/v1752990849/1_v18ox2.mp4',
+          title: 'Advertisement Video 2',
+        },
+        {
+          src: 'https://res.cloudinary.com/duoycuhvh/video/upload/v1752990963/2_1_ptsxsh.mp4',
+          title: 'Advertisement Video 3',
+        },
       ],
     },
     {
@@ -53,10 +77,22 @@ const VideosPage: React.FC = () => {
       description:
         "A diverse collection of additional video content including miscellaneous clips, experimental footage, and various other video materials that don't fit into specific categories.",
       videos: [
-        { src: '/videos/documentary/1.mp4', title: 'Documentary Video 1' },
-        { src: '/videos/documentary/2.mp4', title: 'Documentary Video 2' },
-        { src: '/videos/documentary/3.mp4', title: 'Documentary Video 3' },
-        { src: '/videos/documentary/4.mp4', title: 'Documentary Video 4' },
+        {
+          src: 'https://res.cloudinary.com/duoycuhvh/video/upload/v1752991203/1_l3axl5.mp4',
+          title: 'Other Video 1',
+        },
+        {
+          src: 'https://res.cloudinary.com/duoycuhvh/video/upload/v1752991241/2_mux2y4.mp4',
+          title: 'Other Video 2',
+        },
+        {
+          src: 'https://res.cloudinary.com/duoycuhvh/video/upload/v1752991265/3_ajqsgy.mp4',
+          title: 'Other Video 3',
+        },
+        {
+          src: 'https://res.cloudinary.com/duoycuhvh/video/upload/v1752991280/4_mcpsra.mp4',
+          title: 'Other Video 4',
+        },
       ],
     },
   ];
