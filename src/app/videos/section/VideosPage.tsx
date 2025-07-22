@@ -272,10 +272,26 @@ const VideosPage: React.FC = () => {
       {/* Hero Section */}
       <section
         className="relative h-screen w-full overflow-hidden bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: "url('/images/home/hero2.webp')",
-        }}
+        // style={{
+        //   backgroundImage: "url('/images/home/hero2.webp')",
+        // }}
       >
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 h-full w-full object-cover"
+          poster="/images/poster/home.webp"
+        >
+          <source
+            src="https://res.cloudinary.com/duoycuhvh/video/upload/v1752991561/home_tyucl8.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+
+        <div className="absolute inset-0 z-0 bg-black/10" />
         <div className="absolute left-4 top-20 h-16 w-1 animate-pulse bg-red-500 opacity-30 md:left-10 md:h-20 md:w-2" />
         <div className="absolute bottom-20 right-8 h-2 w-2 animate-ping rounded-full bg-red-500 opacity-60 md:bottom-32 md:right-16 md:h-3 md:w-3" />
 
