@@ -15,7 +15,7 @@ const ImageSection: React.FC = () => {
           height={2560}
           width={2021}
           alt="wedding image"
-          className="h-[200px] w-full md:h-[500px]"
+          className="h-[200px] w-full object-cover md:h-[500px]"
         />
       </div>
       <div className="absolute left-10 top-60 md:left-60 md:top-28 2xl:left-96">
@@ -24,7 +24,7 @@ const ImageSection: React.FC = () => {
           height={2560}
           width={4000}
           alt="wedding image"
-          className="h-[200px] w-full md:h-[500px]"
+          className="h-[200px] w-full object-cover md:h-[500px]"
         />
       </div>
       <div className="absolute right-4 top-20 md:right-28">
@@ -33,7 +33,7 @@ const ImageSection: React.FC = () => {
           height={2560}
           width={4000}
           alt="wedding image"
-          className="h-[200px] w-full md:h-[500px]"
+          className="h-[200px] w-full object-cover md:h-[500px]"
         />
       </div>
       <div className="absolute bottom-20 right-4 md:bottom-14 md:right-28">
@@ -42,7 +42,7 @@ const ImageSection: React.FC = () => {
           height={2560}
           width={4000}
           alt="wedding image"
-          className="h-[200px] w-full md:h-[250px]"
+          className="h-[200px] w-full object-cover md:h-[250px]"
         />
       </div>
 
@@ -52,7 +52,7 @@ const ImageSection: React.FC = () => {
           height={2560}
           width={4000}
           alt="wedding image"
-          className="h-[200px] w-full md:h-[250px]"
+          className="h-[200px] w-full object-cover md:h-[250px]"
         />
       </div>
     </section>

@@ -22,7 +22,7 @@ const SectionHeader = ({
 const About = () => {
   return (
     <section
-      className="h-full w-full bg-cover bg-center bg-no-repeat py-16 md:py-28"
+      className="h-full w-full bg-cover bg-center bg-no-repeat px-4 py-16 md:py-28"
       style={{
         backgroundImage: "url('/images/home/about/bg.webp')",
       }}
@@ -34,7 +34,7 @@ const About = () => {
             height={2560}
             width={2021}
             alt="wedding image"
-            className="h-[300px] w-full rounded-2xl md:h-[500px]"
+            className="h-[300px] w-full rounded-2xl object-cover md:h-[500px]"
           />
         </div>
         <div className="flex flex-col items-start justify-start gap-6">
