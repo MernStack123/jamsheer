@@ -36,6 +36,12 @@ const Sidebar: FC<SidebarProps> = ({ children }) => {
               Photos
             </Link>
             <Link
+              href="/about"
+              className="font-oswald flex w-full justify-end p-0 text-2xl font-[700] tracking-[2px] text-[#000]"
+            >
+              About
+            </Link>
+            <Link
               href="/videos"
               className="font-oswald flex w-full justify-end p-0 text-2xl font-[700] tracking-[2px] text-[#000]"
             >

@@ -7,7 +7,7 @@ const page = ({}) => {
     <main className="relative flex h-full w-full">
       <div className="flex h-full w-full flex-col items-center justify-center">
         <Navbar position="fixed" />
-        <div className="h-[14vh] w-full bg-[#ffff] md:h-[12vh]" id="hero"></div>
+        <div className="h-[10vh] w-full bg-[#ffff] md:h-[10vh]" id="hero"></div>
         <AboutPage />
         <Footer />
       </div>
